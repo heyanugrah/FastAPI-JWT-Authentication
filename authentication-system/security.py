@@ -2,7 +2,7 @@ from datetime import datetime, timedelta, timezone
 import bcrypt
 import jwt
 
-SECRET_KEY = "your-secret-key-keep-this-safe"
+SECRET_KEY = "anugrah-secret"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
