@@ -1,29 +1,3 @@
-# from models import UserInDB
-# from security import get_password_hash
-#
-# fake_users_db = {
-#     "johndoe": {
-#         "username": "johndoe",
-#         "email": "johndoe@example.com",
-#         "hashed_password": get_password_hash("secret123"),
-#         "disabled": False,
-#         "role": "admin",  # John is an Admin
-#     },
-#     "janedoe": {
-#         "username": "janedoe",
-#         "email": "janedoe@example.com",
-#         "hashed_password": get_password_hash("secret123"),
-#         "disabled": False,
-#         "role": "user",   # Jane is a standard user
-#     }
-# }
-#
-# def get_user(db, username: str):
-#     if username in db:
-#         user_dict = db[username]
-#         return UserInDB(**user_dict)
-#     return None
-
 from urllib.parse import quote_plus
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
