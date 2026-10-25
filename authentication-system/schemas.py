@@ -1,20 +1,3 @@
-# from typing import Optional
-# from pydantic import BaseModel
-#
-# class User(BaseModel):
-#     username: str
-#     email: Optional[str] = None
-#     disabled: Optional[bool] = None
-#     role: str = "user"  # New field for RBAC
-#
-# class UserInDB(User):
-#     hashed_password: str
-#
-# class Token(BaseModel):
-#     access_token: str
-#     token_type: str
-
-
 
 #This takes over the job of validating the JSON payloads coming into and going out of your API.
 from typing import Optional
